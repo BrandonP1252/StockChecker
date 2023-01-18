@@ -29,7 +29,7 @@ def check_stock(string, driver, user_email):
             break
         else:
             print("Out of Stock")
-        time.sleep(3)
+        time.sleep(30)
 
 
 def check_element(string, driver):
